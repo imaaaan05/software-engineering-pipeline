@@ -8,7 +8,7 @@ def sub(a, b):
 
 def multiply(a, b):
     return a * b
-  
+
 
 def divide(a, b):
     return a / b
@@ -20,6 +20,6 @@ def squareroot(a):
 
 def modulus(a, b):
     return a % b
-
+  
 def floor_divide(a, b):
     return a // b

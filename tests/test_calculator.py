@@ -1,4 +1,4 @@
-from calculator import add, sub, multiply, divide
+from calculator import add, sub, multiply, divide, squareroot, modulus
 
 
 def test_add():
