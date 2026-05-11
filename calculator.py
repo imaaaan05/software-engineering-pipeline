@@ -11,3 +11,7 @@ def multiply(a, b):
 
 def squareroot(a):
     return a**0.5
+
+
+def power(a, b):
+    return a**b
