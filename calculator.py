@@ -25,6 +25,7 @@ def modulus(a, b):
 def floor_divide(a, b):
     return a // b
 
+
 def factorial(a):
     if a == 0:
         return 1
