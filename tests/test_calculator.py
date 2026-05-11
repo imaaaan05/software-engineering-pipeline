@@ -13,5 +13,5 @@ def test_multiply():
     assert multiply(0, 5) == 0
 
 
-def test_divide():
+def test_divide(): #test division
     assert divide(10, 2) == 5
