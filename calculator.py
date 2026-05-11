@@ -26,6 +26,7 @@ def floor_divide(a, b):
     return a // b
 
 def factorial(a):
-    if a < 0:
-        raise ValueError("El factorial només està definit per a enters no negatius")
-    return math.factorial(a)
+    if a == 0:
+        return 1
+
+    return a * factorial(a - 1)
