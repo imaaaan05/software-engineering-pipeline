@@ -1,4 +1,4 @@
-from calculator import add, sub, multiply
+from calculator import add, sub, multiply, squareroot, power
 
 
 def test_add():
@@ -15,3 +15,9 @@ def test_multiply():
 
 def test_squareroot():
     assert squareroot(64) == 8
+
+
+def test_power():
+    assert power(2, 3) == 8
+    assert power(5, 0) == 1
+    assert power(3, 2) == 9
