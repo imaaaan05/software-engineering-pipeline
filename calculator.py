@@ -12,9 +12,12 @@ def multiply(a, b):
 
 def divide(a, b):
     return a / b
+
+
 def squareroot(a):
     return a**0.5
 
 
 def modulus(a, b):
     return a % b
+    
