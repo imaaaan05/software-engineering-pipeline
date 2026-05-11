@@ -1,4 +1,4 @@
-from calculator import add, sub, multiply
+from calculator import add, sub, multiply, squareroot, modulus
 
 
 def test_add():
@@ -13,5 +13,11 @@ def test_multiply():
     assert multiply(3, 4) == 12
     assert multiply(0, 5) == 0
 
+
 def test_squareroot():
     assert squareroot(64) == 8
+
+
+def test_modulus():
+    assert modulus(10, 3) == 1
+    assert modulus(20, 5) == 0
