@@ -1,13 +1,13 @@
 def add(a, b):
-    return a + b   ## E201, E231: espais incorrectes
+    return a + b   ##.# E201, E231: espais incorrectes
 
 
 def sub(a, b):
     return a - b
     
-def multiply(a, b):
+def multiply(a, b): 
     return a * b
 
 
-def divide(a, b):
-    return a / b
+def divide(a, b): #funcio dividir
+    return a / b 
