@@ -25,7 +25,7 @@ def test_squareroot():
 def test_modulus():
     assert modulus(10, 3) == 1
     assert modulus(20, 5) == 0
-    
+
 
 def test_factorial():
     assert factorial(0) == 1
