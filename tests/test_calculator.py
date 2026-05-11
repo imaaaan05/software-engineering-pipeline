@@ -1,4 +1,4 @@
-from calculator import add, sub, multiply, divide, squareroot, modulus
+from calculator import add, sub, multiply, divide, squareroot, modulus, factorial
 
 
 def test_add():
@@ -25,3 +25,14 @@ def test_squareroot():
 def test_modulus():
     assert modulus(10, 3) == 1
     assert modulus(20, 5) == 0
+
+def test_factorial():
+    assert factorial(0) == 1
+    assert factorial(1) == 1
+    assert factorial(2) == 2
+    assert factorial(3) == 6
+    assert factorial(4) == 24
+    assert factorial(5) == 120
+    assert factorial(6) == 720
+    assert factorial(7) == 5040
+    assert factorial(10) == 3628800
