@@ -23,8 +23,10 @@ function AddBookForm({ onAddBook }) {
   }
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div>
+    <form className="card form-card" onSubmit={handleSubmit}>
+      <h2>Add a New Book</h2>
+
+      <div className="form-row">
         <label htmlFor="book-title">Title</label>
         <input
           id="book-title"
@@ -35,7 +37,7 @@ function AddBookForm({ onAddBook }) {
         />
       </div>
 
-      <div>
+      <div className="form-row">
         <label htmlFor="book-author">Author</label>
         <input
           id="book-author"
@@ -46,7 +48,9 @@ function AddBookForm({ onAddBook }) {
         />
       </div>
 
-      <button type="submit">Add Book</button>
+      <button className="button" type="submit">
+        Add Book
+      </button>
     </form>
   )
 }

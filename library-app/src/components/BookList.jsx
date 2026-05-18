@@ -2,7 +2,7 @@ import BookCard from "./BookCard"
 
 function BookList({ books, toggleReservation }) {
   return (
-    <div>
+    <div className="books-grid">
       {books.map((book) => (
         <BookCard
           key={book.id}

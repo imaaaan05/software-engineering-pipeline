@@ -12,3 +12,11 @@ Create reusable BookCard and BookList components.
 
 ## Prompt 4
 Create a React form component for adding books with title and author inputs.
+
+## Prompt 5
+Add localStorage persistence so books remain after refreshing the page.
+## Prompt 6
+Create a user registration form with email input, validation, success message and localStorage persistence.
+## Prompt 5
+Improve the UI styling of the library app with modern responsive CSS cards, buttons and form styles.
+

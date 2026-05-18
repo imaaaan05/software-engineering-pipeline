@@ -1,18 +1,22 @@
 function BookCard({ book, toggleReservation }) {
   return (
-    <div>
-      <h3>{book.title}</h3>
+    <article className="book-card">
+      <div className="book-card-content">
+        <h3>{book.title}</h3>
+        <p className="book-author">{book.author}</p>
+      </div>
 
-      <p>{book.author}</p>
+      <div className="book-card-actions">
+        <button
+          className="button secondary"
+          onClick={() => toggleReservation(book.id)}
+        >
+          {book.reserved ? "Cancel" : "Reserve"}
+        </button>
 
-      <button onClick={() => toggleReservation(book.id)}>
-        {book.reserved
-          ? "Cancel Reservation"
-          : "Reserve"}
-      </button>
-
-      {book.reserved && <p>Reserved</p>}
-    </div>
+        {book.reserved && <p className="status-badge">Reserved</p>}
+      </div>
+    </article>
   )
 }
 
