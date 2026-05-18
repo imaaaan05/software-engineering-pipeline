@@ -176,8 +176,20 @@ Overall, the experience was very positive. The combination of iterative promptin
 ---
 
 ## How to Run the Project
-
 Install dependencies:
 
 ```bash
 npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Open in browser:
+
+```text
+http://localhost:5173
+```
