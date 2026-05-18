@@ -2,9 +2,7 @@
 
 React application developed with GitHub Copilot for managing library book reservations.
 
-## Repository
-
-GitHub Repository:
+## GitHub Repository:
 https://github.com/imaaaan05/software-engineering-pipeline/tree/library-app
 ---
 
