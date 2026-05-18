@@ -9,6 +9,7 @@ function App() {
     const saved = localStorage.getItem("libraryBooks")
     return saved ? JSON.parse(saved) : booksData
   })
+  const [query, setQuery] = useState("")
 
   useEffect(() => {
     localStorage.setItem("libraryBooks", JSON.stringify(books))
@@ -28,6 +29,10 @@ function App() {
     setBooks((currentBooks) => [newBook, ...currentBooks])
   }
 
+  const filteredBooks = books.filter((book) =>
+    book.title.toLowerCase().includes(query.trim().toLowerCase())
+  )
+
   return (
     <div className="app-shell">
       <header className="app-header">
@@ -35,6 +40,17 @@ function App() {
         <p className="app-subtitle">
           Reserve books, manage your collection, and keep data saved locally.
         </p>
+
+        <div className="search-bar">
+          <label htmlFor="book-search">Search by title</label>
+          <input
+            id="book-search"
+            type="search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Search books by title..."
+          />
+        </div>
       </header>
 
       <div className="top-panels">
@@ -44,7 +60,7 @@ function App() {
 
       <section className="book-grid">
         <BookList
-          books={books}
+          books={filteredBooks}
           toggleReservation={toggleReservation}
         />
       </section>

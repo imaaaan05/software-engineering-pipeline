@@ -152,6 +152,24 @@ body {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
+.search-bar {
+  display: grid;
+  gap: 10px;
+  margin-top: 24px;
+  text-align: left;
+  max-width: 420px;
+}
+
+.search-bar label {
+  font-size: 0.95rem;
+  color: #334155;
+  font-weight: 600;
+}
+
+.search-bar input {
+  width: 100%;
+}
+
 .books-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));

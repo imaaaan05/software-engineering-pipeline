@@ -19,4 +19,6 @@ Add localStorage persistence so books remain after refreshing the page.
 Create a user registration form with email input, validation, success message and localStorage persistence.
 ## Prompt 5
 Improve the UI styling of the library app with modern responsive CSS cards, buttons and form styles.
+## Prompt 6
+Add a search bar to filter books by title in real time.
 
