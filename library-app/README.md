@@ -95,10 +95,13 @@ Add a search bar to filter books by title in real time.
 ## Screenshots
 
 ### Main Application
+<img width="1038" height="847" alt="App-library" src="https://github.com/user-attachments/assets/a1486d2f-677d-4f1d-9bfa-8d6cdd246e3e" />
 
 ### Registration Form
+<img width="472" height="326" alt="User Registration" src="https://github.com/user-attachments/assets/5114c237-c4ad-45b9-b3ee-2311661b0b4c" />
 
 ### Reservation System
+<img width="1001" height="216" alt="Reservados" src="https://github.com/user-attachments/assets/6be12ffd-a118-4f5e-9f8b-e89a9046104f" />
 
 ---
 
