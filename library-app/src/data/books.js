@@ -11,6 +11,12 @@ const books = [
     author: "Andrew Hunt",
     reserved: false,
   },
+  {
+    id: 3,
+    title: "Design Patterns",
+    author: "Gang of Four",
+    reserved: false,
+  },
 ]
 
 export default books
