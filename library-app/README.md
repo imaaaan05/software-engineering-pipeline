@@ -5,8 +5,7 @@ React application developed with GitHub Copilot for managing library book reserv
 ## Repository
 
 GitHub Repository:
-https://github.com/imaaaan05/software-engineering-pipeline
-
+https://github.com/imaaaan05/software-engineering-pipeline/tree/library-app
 ---
 
 ## Project Description
@@ -64,32 +63,79 @@ The development process was iterative and based on prompts provided to GitHub Co
 
 ---
 
-## GitHub Copilot Prompts Used
+## Development Workflow with GitHub Copilot
 
-### Prompt 1
+The application was developed progressively using an iterative workflow with GitHub Copilot.
+
+### Step 1 — Initial Book List
+
+Prompt:
 Create a React component that displays a list of books with reserve buttons.
 
-### Prompt 2
+At this stage, the application displayed a static list of books with simple reserve buttons.
+
+---
+
+### Step 2 — Reservation Logic
+
+Prompt:
 Add a reservation toggle system using React useState.
 
-### Prompt 3
+The reservation system was improved by adding dynamic state management with React useState, allowing users to reserve and cancel reservations.
+
+---
+
+### Step 3 — Component Refactoring
+
+Prompt:
 Create reusable BookCard and BookList components.
 
-### Prompt 4
+The codebase was reorganized into reusable React components to improve scalability and maintainability.
+
+---
+
+### Step 4 — Add New Books
+
+Prompt:
 Create a React form component for adding books with title and author inputs.
 
-### Prompt 5
+A form was added so users could dynamically create new books directly from the interface.
+
+---
+
+### Step 5 — Data Persistence
+
+Prompt:
 Add localStorage persistence so books remain after refreshing the page.
 
-### Prompt 6
+Persistence was implemented using localStorage so the application state remained saved after refreshing the browser.
+
+---
+
+### Step 6 — User Registration
+
+Prompt:
 Create a user registration form with email input, validation, success message and localStorage persistence.
 
-### Prompt 7
+A registration system was implemented with email validation and persistent storage for user data.
+
+---
+
+### Step 7 — UI Improvements
+
+Prompt:
 Improve the UI styling of the library app with modern responsive CSS cards, buttons and form styles.
 
-### Prompt 8
+The interface was redesigned with a more modern responsive layout using improved CSS styling generated and refined with Copilot.
+
+---
+
+### Step 8 — Search System
+
+Prompt:
 Add a search bar to filter books by title in real time.
 
+A real-time search system was added to improve usability and user experience.
 ---
 
 ## Screenshots
@@ -107,20 +153,27 @@ Add a search bar to filter books by title in real time.
 
 ## Reflection About GitHub Copilot
 
-GitHub Copilot significantly accelerated the development process of the application.
+GitHub Copilot helped accelerate the development process considerably, especially during the creation of React components, forms, CSS styling and localStorage persistence.
 
-It was especially useful for:
-- Generating React components
-- Creating forms and state management logic
-- Improving the UI with CSS
-- Refactoring repetitive code
-- Implementing localStorage persistence
+The workflow was highly iterative. Instead of generating the complete application in a single step, the project evolved progressively through increasingly specific prompts. Each iteration refined the previous implementation and added new functionality.
 
-The iterative workflow using prompts allowed the application to evolve progressively.
+One of the main advantages of Copilot was the speed at which repetitive code and UI structures could be generated. It was especially useful for:
+- Creating reusable React components
+- Managing React state with useState and useEffect
+- Generating responsive CSS layouts
+- Implementing forms and validation logic
+- Adding localStorage persistence
 
-However, manual review and testing were necessary to ensure the generated code worked correctly and matched the required user stories.
+However, the generated code was not always correct on the first attempt. Several problems appeared during development:
+- Some generated code required manual fixes
+- Component imports occasionally failed
+- Styling needed adjustments after generation
+- Certain prompts generated incomplete implementations
+- The application structure had to be reorganized manually
 
-Overall, GitHub Copilot improved productivity and simplified many repetitive development tasks.
+Because of this, manual review and debugging were essential throughout the project. GitHub Copilot worked best as an assistant rather than a fully autonomous developer.
+
+Overall, the experience was very positive. The combination of iterative prompting, manual corrections and progressive refinement allowed the application to evolve efficiently while maintaining control over the final result.
 
 ---
 
