@@ -134,7 +134,7 @@ Prompt:
 Add a search bar to filter books by title in real time.
 
 A real-time search system was added to improve usability and user experience.
----
+**---
 
 ## Screenshots
 
